@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+body {
+    background-color: #faf2e4;
+    margin: 0 10%;
+    font-family: sans-serif;
+    }
+
+    header {background-color: burlywood;
+    color: white;
+padding: 2rem;}
+  h1 {
+   font-size: 2rem;
+  }
+  h2 {
+    
+    font-size: 1.5em;
+  } 
+  h3 {
+font-size: 1.25rem;
+ }
