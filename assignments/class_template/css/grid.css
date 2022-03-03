@@ -38,7 +38,7 @@ color: var(--neutral-grey);
 /* ######## layout*/
 .container  {
     background-color: red; 
-    width: min(95%, 75rem);
+    width: min(95%, 1.75rem);
     margin: auto;
     display: grid;
     gap: 1.5rem;
@@ -46,8 +46,18 @@ color: var(--neutral-grey);
 
 }
 .container > * {
-    grid-column: span 12;
+    grid-column: span 4;
+   color: red;
+ 
 }
+.column-1 {
+    width: 960px;
+    background-color: #b3c8cd;
+  }
+  .column-1 {
+    width: 960px;
+    background-color: #b3c8cd;
+  }
 
  .site-id {
 grid-column: 1 /span6;
@@ -63,6 +73,7 @@ background-color: #033f5f;
  .menu {
     grid-column: 1 /span6;
     background-color: #035f0b;
+
  }
 .company {
 grid-column: 1 / span 8;
