@@ -26,6 +26,15 @@ font-size: 1.25rem;
    border: 5px solid #9abcf8;
  }
 
+ a:link, a:visited {
+   color: #9abcf8;
+   text-decoration: none;
+ }
+ a:hover {
+  color: #183361;
+  text-decoration: underline;
+}
+
  /* Layout ******/
  .container{
    background-color: white;
@@ -41,7 +50,7 @@ font-size: 1.25rem;
  }
 
  /* Desktop layout */
- @media  screen and (min-width: 40 rem) {
+ @media  screen and (min-width: 40rem) {
    .col-span-8 {
      grid-column: span 8;
    }
@@ -50,3 +59,19 @@ font-size: 1.25rem;
   }
    
  }
+/* components ******/
+.button:link, .button:visited {
+  color: white;
+  background-color: #9abcf8;
+  text-align: center;
+  text-decoration: none;
+  padding: 1 rem 1.75rem;
+  border-radius: .5rem;
+  box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+  display: inline-block;
+  margin: 0 .25rem .25rem 0;
+  transition: backround-color 0.5s ease;
+}
+.button:hover {
+  background-color: #9abcf8;
+}
