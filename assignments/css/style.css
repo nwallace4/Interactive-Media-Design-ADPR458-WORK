@@ -12,6 +12,9 @@ body {
     font-family: sans-serif;
     background-image: url(../images/bg.png);
     }
+    .container {
+      background-color: white;
+    }
 
     header {background-color: burlywood;
     color: white;
