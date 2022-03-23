@@ -13,8 +13,10 @@
 
 
 
-* {box-sizing: border-box;
-font-family: sans-serif;}
+* {
+    box-sizing: border-box;
+font-family: sans-serif;
+}
 
 
 body {
@@ -48,27 +50,50 @@ color: var(--neutral-grey);
 .container > * {
     grid-column: span 12;
 }
+/* ######## layout*/
+.container-lg  {
+    background-color: blue; 
+    width: min(100%, 100rem);
+    margin: auto;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
 
+}
+.container-lg > * {
+    grid-column: span 12;
+}
+.portfolio {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(5, 1fr);
+    padding-bottom: 2rem;
+    background-color: white;
+}
+.primary-color {
+    background-color: var(--primary-color);
+}
+.highlight-color {
+    background-color: var(--highlight_color);
+}
+.text-center {
+    background-color: var(--highlight_color);
+}
+ /***** Desktop Layput*****/
+
+@media screen and (min-width: 40rem) {
  .site-id {
-grid-column: 1 /span6;
+grid-column: 1 / span 6;
 background-color: #033f5f;
-
-
-
-
-
-
 
  } 
  .menu {
-    grid-column: 1 /span6;
+    grid-column: 7 /span 6;
     background-color: #035f0b;
  }
 .company {
 grid-column: 1 / span 8;
 background-color: purple;
 }
-.company-image { 
-    grid-column: 9 / span 4;
-    background-color: yellow;
+
 }
