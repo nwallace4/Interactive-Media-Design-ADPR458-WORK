@@ -1,0 +1,151 @@
+
+
+body {
+  background-color: black;
+}
+
+
+header {background-color: white;
+  color: black;
+padding: 1rem;
+text-align: center;
+
+
+}
+
+
+
+
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+ color: gray;
+ text-decoration: underline;
+}
+
+/* Layout ******/
+.container{
+  background-color: white;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  width: min(95% 75rem);
+
+}
+.container > * {
+  grid-column: span 12;
+}
+
+
+ /****** Navigation Using Flexbox *****/ 
+ nav {
+   background-color: red;
+   padding: 0  5rem;
+   display: flex;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+ }
+ nav ul {
+   margin: 0;
+   padding: 1rem;
+   list-style: none;
+   display: flex;
+   flex-flow: row wrap; 
+
+ }
+ nav li {
+   margin: 0 0.5rem;
+
+ }
+ nav a:link nav a:visited {
+   color: white;
+   text-decoration: none;
+   font-size: 1.125rem;
+   padding: 1rem;
+   display: block;
+   transition: ease-in-out 250ms;
+
+ }
+ nav a:hover {
+   background-color: gray;
+   color: white;
+   text-decoration: none;
+ }
+  
+
+/* components ******/
+.button:link, .button:visited {
+ color: white;
+ background-color: gray;
+ text-align: center;
+ text-decoration: none;
+ padding: 1rem 1.75rem;
+ border-radius: .5rem;
+ box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .125rem);
+ display: inline-block;
+ margin: 0 .25rem .25rem 0;
+ transition: backround-color 0.5s ease;
+}
+.button:hover {
+ background-color:gray;
+}
+
+.card {
+ text-align: center;
+ margin: 1rem;
+ padding-bottom: 2rem;
+ box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .125rem);
+}
+.card-title {
+ margin: 0.75rem 0 0 0;
+ padding: 0 2rem 0.5rem;
+}
+.card-text {
+ margin: 0.5rem 0 1rem 0;
+ padding: 0 2rem 0.5rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: black;
+  border-width: 2rem;
+  padding-top: 4rem;
+}
+
+
+.container2 { width: 960px;
+   margin: 1 auto; 
+   height: 200px; 
+   padding-top: 3rem;}
+
+.container2 
+[class*='box'] 
+{ width:300px; 
+  height:100px; 
+  float: left; 
+  margin-right: 20px; }
+
+.container2 .box1 
+{ 
+  font-size: 3rem;
+  color: red;
+  background-color: white; }
+.container2 .box2 { 
+  color: red;
+  background-color: white; 
+  font-size: 3rem;
+}
+.container2 .box3 {
+  color: red;
+   background-color: white; 
+   margin-right: 0; 
+   font-size: 3rem;
+  }
