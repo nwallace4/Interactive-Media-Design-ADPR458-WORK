@@ -34,6 +34,7 @@ a:hover {
   grid-template-columns: repeat(12, 1fr);
   margin: 0 auto;
   width: min(95% 75rem);
+  
 
 }
 .container > * {
@@ -138,6 +139,7 @@ a:hover {
   font-size: 3rem;
   color: red;
   background-color: white; }
+  
 .container2 .box2 { 
   color: red;
   background-color: white; 
@@ -149,3 +151,34 @@ a:hover {
    margin-right: 0; 
    font-size: 3rem;
   }
+  .bestbackround 
+  {
+    background-color: black;
+  }
+  img {
+    max-width: 100%;
+  }
+  /* Best Teams */ 
+
+
+  .pic1h1 {
+
+color: white;
+text-align: center;
+font-size:  4rem;
+  }
+
+  .pic1h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .pic1h3 {
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+
+  }
+
+  
