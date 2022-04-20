@@ -11,7 +11,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body {
+.backround1 {
   
   background-image: url(../images/mountains1.jpeg);
   background-repeat: no-repeat;
@@ -315,6 +315,13 @@ color: black;
 
 .topnav-right {
 float: right;
+}
+
+
+.sweet 
+{
+  background: white;
+
 }
 
 
