@@ -122,9 +122,9 @@ a:hover {
 }
 
 
-.container2 { width: 960px;
+.container2 {
    margin: 1 auto; 
-   height: 200px; 
+    
    padding-top: 3rem;}
 
 .container2 
@@ -172,13 +172,12 @@ font-size:  4rem;
 
   .pic1h2 {
     color: white;
-    text-align: center;
-    font-size: 2rem;
+     font-size: 2rem;
   }
 
   .pic1h3 {
     color: white;
-    text-align: left;
+    text-align: center;
     font-size: 1rem;
 
   }
