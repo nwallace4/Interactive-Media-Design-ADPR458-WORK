@@ -182,4 +182,21 @@ font-size:  4rem;
 
   }
 
+
+  a.button1 {
+    color: red;
+    background-color: white;
+    padding: 2rem 3rem;
+    text-align: center;
+    
+  }
+  
+  a.button2 {
+  
+    color: red;
+    background-color: white;
+    padding: 2rem 3rem;
+    text-align: center;
+    
+  }
   
