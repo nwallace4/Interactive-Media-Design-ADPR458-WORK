@@ -12,6 +12,20 @@ text-align: center;
 
 
 }
+header h1 {
+  color: black;
+}
+h1, h2, p {
+  color: white;
+
+}
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
 
 
 
@@ -28,12 +42,12 @@ a:hover {
 
 /* Layout ******/
 .container{
-  background-color: white;
+  background-color: black;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(12, 1fr);
   margin: 0 auto;
-  width: min(95% 75rem);
+  width: min(95%, 75rem);
   
 
 }
@@ -111,54 +125,25 @@ a:hover {
  padding: 0 2rem 0.5rem;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: black;
-  border-width: 2rem;
-  padding-top: 4rem;
-}
+
 
 
 .container2 {
    margin: 1 auto; 
-    
-   padding-top: 3rem;}
+    padding-top: 3rem;
 
-.container2 
-[class*='box'] 
-{ width:300px; 
-  height:100px; 
-  float: left; 
-  margin-right: 20px; }
-
-.container2 .box1 
-{ 
-  font-size: 3rem;
-  color: red;
-  background-color: white; }
-
-.container2 .box2 { 
-  color: red;
-  background-color: white; 
-  font-size: 3rem;
-  justify-content: center;
-  
-}
-.container2 .box3 {
-  color: red;
-   background-color: white; 
-   margin-right: 0; 
-   font-size: 3rem;
   }
+
+
+
+
   .bestbackround 
   {
     background-color: black;
   }
   img {
     max-width: 100%;
+   
   }
   /* Best Teams */ 
 
@@ -181,22 +166,45 @@ font-size:  4rem;
     font-size: 1rem;
 
   }
-
-
-  a.button1 {
-    color: red;
-    background-color: white;
-    padding: 2rem 3rem;
-    text-align: center;
-    
+  .navtop {
+    margin-top: -1.5rem;
   }
+
+
+
   
   a.button2 {
   
     color: red;
     background-color: white;
-    padding: 2rem 3rem;
+    padding: 1rem 2rem;
     text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+    
     
   }
+  a.button2:hover {
+    background-color: gray;
+  }
+  .center {
+    text-align: center;
+    max-width: 100%;
   
+  }
+  
+/* Desktop Layout */
+@media screen and (min-width: 40rem) {
+  .hero {
+      grid-column: 3 / span 8;
+      margin-top: -1.5rem;
+  }
+  .col-span-4 {
+    grid-column: span 4;
+  }
+  .col-span-8 {
+    grid-column: span 8;
+  }
+  
+}
+
