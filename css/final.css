@@ -184,6 +184,7 @@ font-size:  4rem;
     border-radius: 50%;
     text-decoration: none;
     
+    
   }
   
   a.button2:hover {
@@ -220,3 +221,8 @@ font-size:  4rem;
   max-width: 100%;
 }
 
+.copy {
+  size: 3rem;
+  text-align: center;
+  color: white;
+}
